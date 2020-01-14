@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		E206F7E0233B05090005707C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E206F7DF233B05090005707C /* AppDelegate.swift */; };
 		E206F7E2233B05090005707C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E206F7E1233B05090005707C /* SceneDelegate.swift */; };
-		E206F7E4233B05090005707C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E206F7E3233B05090005707C /* ViewController.swift */; };
 		E206F7E7233B05090005707C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E206F7E5233B05090005707C /* Main.storyboard */; };
 		E206F7E9233B050A0005707C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E206F7E8233B050A0005707C /* Assets.xcassets */; };
 		E206F7EC233B050A0005707C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E206F7EA233B050A0005707C /* LaunchScreen.storyboard */; };
+		E20A3F1223439C8C00198C75 /* BillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20A3F1123439C8C00198C75 /* BillVC.swift */; };
+		E20A3F1423439ECA00198C75 /* InputVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20A3F1323439ECA00198C75 /* InputVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E206F7DC233B05090005707C /* HydroCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HydroCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E206F7DF233B05090005707C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E206F7E1233B05090005707C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E206F7E3233B05090005707C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E206F7E6233B05090005707C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E206F7E8233B050A0005707C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E206F7EB233B050A0005707C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E206F7ED233B050A0005707C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E20A3F1123439C8C00198C75 /* BillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillVC.swift; sourceTree = "<group>"; };
+		E20A3F1323439ECA00198C75 /* InputVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				E206F7DF233B05090005707C /* AppDelegate.swift */,
 				E206F7E1233B05090005707C /* SceneDelegate.swift */,
-				E206F7E3233B05090005707C /* ViewController.swift */,
 				E206F7E5233B05090005707C /* Main.storyboard */,
 				E206F7E8233B050A0005707C /* Assets.xcassets */,
 				E206F7EA233B050A0005707C /* LaunchScreen.storyboard */,
 				E206F7ED233B050A0005707C /* Info.plist */,
+				E20A3F1123439C8C00198C75 /* BillVC.swift */,
+				E20A3F1323439ECA00198C75 /* InputVC.swift */,
 			);
 			path = HydroCalc;
 			sourceTree = "<group>";
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E206F7E4233B05090005707C /* ViewController.swift in Sources */,
+				E20A3F1423439ECA00198C75 /* InputVC.swift in Sources */,
 				E206F7E0233B05090005707C /* AppDelegate.swift in Sources */,
 				E206F7E2233B05090005707C /* SceneDelegate.swift in Sources */,
+				E20A3F1223439C8C00198C75 /* BillVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
